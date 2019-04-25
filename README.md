@@ -1,6 +1,8 @@
 # BreastCancerClassifier
 Deep Neural Network to Classify Suspicious Tumors
 
+Open Source Dataset Available at: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
+
 Features Analyzed:
 * Clump Thickness
 * Uniformity of Cell Size
