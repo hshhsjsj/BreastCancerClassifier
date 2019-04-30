@@ -148,7 +148,7 @@ def get_csv_data(csv_directory, dataset_size, num_features, num_labels):
     return data_x, data_labels
 
 def main():
-    (x, labels) = get_csv_data("D:\\Datasets\\BreastCancerWisconsin\\raw_data.CSV", 699, 9, 1)
+    (x, labels) = get_csv_data("C:\\Users\\natha\\BreastCancerWisconsin\\raw_data.CSV", 699, 9, 1)
     (x_train, x_test, labels_train, labels_test) = split_train_test_set(0.9, 699, x, labels)
     final_parameters = model(x_train, labels_train, x_test, labels_test)
     print(final_parameters)
